@@ -1,0 +1,12 @@
+1)What is map
+
+2)What is filter
+
+3)What is Reduce
+
+4)polyfills for map filter Reduce
+
+5)difference between map and for Each
+    ->map return a new array and foreach modifies the orignal 
+    ->map can be chained 
+6)Output based
