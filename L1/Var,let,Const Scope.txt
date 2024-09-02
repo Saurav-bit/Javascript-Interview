@@ -1,0 +1,49 @@
+SCOPE
+var vs let vs const
+
+1)
+anything inside a function is function SCOPE
+
+function(){
+
+    //function scope
+}
+
+{
+    
+//block scope
+
+}
+
+
+2)
+var is function scope
+let const is block SCOPE
+
+illegal Shadowing
+
+when we shadow a var with let 
+gives a error already been declared
+
+3)Declaration
+
+we cannot re-declare let and const in same scope 
+but var can
+
+
+4)Hoisting
+
+
+there is a creation Phase and a execution Phase
+in creation Phase all the variables are declared with undefined value
+
+in execution phase their value is initialised 
+
+Js moves all the function and variable Declaration to the top which is called Hoisting.
+ 
+
+ Temporal Dead Zone
+  happens in let and const
+  state between Declaration and initialization
+
+  term to describe the scope where the variables are in the scope but they are not yet declared; 
